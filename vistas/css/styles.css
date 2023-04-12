@@ -1,0 +1,83 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.header {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #33bb33;
+	padding: 2rem 0;
+	color: #fff;
+}
+
+.header__title {
+	margin: 0;
+}
+
+.productsTable {
+	margin-top: 2rem;
+	width: 100%;
+	text-align: center;
+}
+
+.productsTable__columnHeader {
+	border: 0.5rem solid #000;
+}
+
+.addProductbtn {
+	display: block;
+	padding: 2rem;
+	text-align: center;
+	width: 60%;
+	margin: 2rem auto 0;
+	border-radius: 2.5rem;
+	background-color: #ccc;
+	text-decoration: none;
+	font-size: 2.4rem;
+	color: #fff;
+}
+
+.productsTable__cell {
+	border: 0.2rem solid black;
+	border-radius: 0.4rem;
+}
+
+.productsTable__actionProduct {
+	display: block;
+	padding: 1rem 0.5rem;
+	text-decoration: none;
+}
+
+.productsTable__actionProduct--delete {
+	background-color: #ff3333;
+	color: #fff;
+}
+
+.productsTable__actionProduct--edit {
+	background-color: #cccc00;
+	color: #000;
+}
+
+.productForm {
+	margin: 2rem auto 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 2rem;
+	border: 0.5rem solid #555;
+	width: 90%;
+}
+
+.productForm__inputData {
+	display: flex;
+	flex-direction: column;
+}
+
+.productForm__sendDataButton {
+	background-color: #000;
+	color: #fff;
+	padding: 1rem;
+}
